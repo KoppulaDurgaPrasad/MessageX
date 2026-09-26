@@ -395,7 +395,7 @@ cd MessageX
 ## 2️⃣ Backend Setup
 
 ```bash
-cd GoWheels_Backend
+cd messageX_Backend
 
 mvn clean install
 
