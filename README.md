@@ -104,7 +104,7 @@ The platform provides OTP-based authentication using Twilio, JWT-based security,
 ## 📱 OTP Authentication
 
 <p>
-  <img src="https://cdn.simpleicons.org/twilio/F22F46" height="60" alt="Twilio"/>
+  <img src="messageX_frontend/src/assets/twilio.png" height="60" alt="Twilio"/>
 </p>
 
 * Twilio
