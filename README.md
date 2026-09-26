@@ -135,10 +135,11 @@ The platform provides OTP-based authentication using Twilio, JWT-based security,
 
 ---
 
+
 # 🏗️ System Architecture
 
 <p align="center">
-  <img src="architecture.png" width="1000"/>
+  <img src="messageX_frontend/src/assets/architecture.png" width="1000"/>
 </p>
 
 ### 🔄 Architecture Overview
