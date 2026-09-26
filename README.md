@@ -13,7 +13,6 @@
   A Full Stack Real-Time Messaging Platform built using Spring Boot, React, WebSocket, WebRTC, PostgreSQL, and Cloudinary.
 </p>
 
-<hr>
 
 ---
 
@@ -381,3 +380,75 @@ MessageX
 │
 ├── docker-compose.yml
 └── README.md
+```
+
+# ⚙️ Run Locally
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/KoppulaDurgaPrasad/MessageX.git
+
+cd MessageX
+```
+---
+## 2️⃣ Backend Setup
+
+```bash
+cd GoWheels_Backend
+
+mvn clean install
+
+mvn spring-boot:run
+```
+
+Backend runs at:
+
+```bash
+http://localhost:8080
+```
+
+---
+
+## 3️⃣ Frontend Setup
+
+```bash
+cd messageX_frontend
+
+npm install
+
+npm start
+```
+
+Frontend runs at:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+
+## 4️⃣ Docker Setup
+
+```bash
+docker-compose up --build
+```
+
+---
+
+# 👨‍💻 Developer
+
+### Durga Prasad Koppula
+
+🔗 GitHub:
+
+https://github.com/KoppulaDurgaPrasad
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+Your support and feedback are greatly appreciated!
