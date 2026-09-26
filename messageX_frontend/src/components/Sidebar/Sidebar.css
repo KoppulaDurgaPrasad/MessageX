@@ -1,0 +1,146 @@
+.sidebar {
+  width: 95px;
+  height: 100vh;
+  background: #ffffff;
+
+  border-right: 1px solid #e2e8f0;
+
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 10px;
+}
+
+.sidebar-logo img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.sidebar-logo h4 {
+  font-size: 15px;
+  font-weight: 700;
+
+  background: linear-gradient(90deg, #6a38ff, #2ea8ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.sidebar-item,
+.logout-btn {
+  text-decoration: none;
+  color: #64748b;
+
+  border: none;
+  background: none;
+
+  padding: 12px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 5px;
+
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.sidebar-item svg,
+.logout-btn svg {
+  font-size: 24px;
+}
+
+.sidebar-item span,
+.logout-btn span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sidebar-item:hover,
+.logout-btn:hover {
+  background: #eef2ff;
+  color: #6a38ff;
+}
+
+.sidebar-item.active {
+  background: linear-gradient(
+    90deg,
+    rgba(106, 56, 255, 0.12),
+    rgba(46, 168, 255, 0.12)
+  );
+
+  color: #6a38ff;
+
+  border-left: 4px solid #6a38ff;
+
+  transform: scale(1.02);
+}
+
+.sidebar-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 12px 10px;
+
+  border-top: 1px solid #e2e8f0;
+}
+
+.profile-avatar {
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 2px solid #6a38ff;
+
+  margin-bottom: 8px;
+}
+
+.sidebar-profile p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  text-align: center;
+
+  width: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.logout-btn {
+  color: #ef4444;
+}
+
+.logout-btn:hover {
+  background: #fef2f2;
+}

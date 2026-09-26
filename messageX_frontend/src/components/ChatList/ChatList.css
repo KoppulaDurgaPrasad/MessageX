@@ -1,0 +1,185 @@
+.chat-list {
+  width: 370px;
+  height: 100vh;
+  margin-left: 95px;
+
+  background: white;
+
+  border-right: 1px solid #e2e8f0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 25px;
+
+  border-bottom: 1px solid #edf2f7;
+}
+
+.no-chats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.chat-header h3 {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  color: #0f172a;
+}
+
+.new-chat-btn {
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: linear-gradient(90deg, #6a38ff, #2ea8ff);
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.new-chat-btn:hover {
+  transform: scale(1.05);
+}
+
+.search-box {
+  margin: 20px;
+
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 14px;
+
+  padding: 0 15px;
+
+  background: #f8fafc;
+}
+
+.search-box input {
+  flex: 1;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  margin-left: 10px;
+}
+
+.search-icon {
+  color: #64748b;
+}
+
+.chat-items {
+  flex: 1;
+
+  overflow-y: auto;
+}
+
+.chat-item {
+  display: flex;
+
+  gap: 15px;
+
+  padding: 16px 22px;
+
+  cursor: pointer;
+
+  transition: 0.25s;
+}
+
+.chat-item:hover {
+  background: #eef2ff;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+.chat-info {
+  flex: 1;
+}
+
+.chat-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 6px;
+}
+
+.chat-top h5 {
+  margin: 0;
+
+  font-size: 16px;
+
+  color: #0f172a;
+}
+
+.chat-top span {
+  font-size: 12px;
+
+  color: #64748b;
+}
+
+.chat-bottom {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.chat-bottom p {
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+}
+
+.unread-badge {
+  min-width: 22px;
+  height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: linear-gradient(90deg, #6a38ff, #2ea8ff);
+
+  color: white;
+
+  font-size: 12px;
+  font-weight: 600;
+}
