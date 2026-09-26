@@ -1,12 +1,19 @@
-<div align="center">
+<table>
+  <tr>
+    <td width="220" align="center">
+      <img src="messageX_frontend/src/assets/messageX.png" width="150" alt="MessageX Logo"/>
+    </td>
+    <td>
+      <h1>MessageX - Real-Time Messaging Application</h1>
+    </td>
+  </tr>
+</table>
 
-# 💬 MessageX - Real-Time Messaging Application
-
-<p>
-  A Full Stack Real-Time Messaging Platform built using Spring Boot, React, PostgreSQL (NeonDB), WebSocket, WebRTC, Twilio, and Cloudinary.
+<p align="center">
+  A Full Stack Real-Time Messaging Platform built using Spring Boot, React, WebSocket, WebRTC, PostgreSQL, and Cloudinary.
 </p>
 
-</div>
+<hr>
 
 ---
 
